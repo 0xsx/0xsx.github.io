@@ -1,0 +1,37 @@
+@import "globals";
+
+
+
+
+.digit-canvas {
+  border: $digit-canvas-border-width solid $digit-canvas-border-color;
+  height: $digit-canvas-size;
+  width: $digit-canvas-size;
+  min-height: $digit-canvas-size;
+  min-width: $digit-canvas-size;
+  max-height: $digit-canvas-size;
+  max-width: $digit-canvas-size;
+  cursor: pointer;
+}
+
+
+.digits-image {
+  margin: 16px;
+  background-image: url("src/img/mnist.jpg");
+  height: 128px;
+  width: 503px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+@media screen and (max-width: $med-screen-size) {
+  .digits-image {
+    height: 102px;
+    width: 400px;
+  }
+}
+
+

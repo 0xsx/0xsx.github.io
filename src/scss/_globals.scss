@@ -1,0 +1,91 @@
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Open+Sans+Condensed:300|Cardo");
+
+$body-font: "Roboto", sans-serif;
+$body-font-size: 14pt;
+$med-body-font-size: 11pt;
+$small-body-font-size: 12pt;
+$med-screen-size: 700px;
+$small-screen-size: 560px;
+$body-min-width: 512px;
+
+$references-font-size: 10pt;
+
+$body-text-color: #fff;
+
+
+$header-height: 80px;
+$home-button-size: 76px;
+
+$med-header-height: 60px;
+$med-home-button-size: 56px;
+
+$small-header-height: 40px;
+$small-home-button-size: 36px;
+
+
+$home-button-font-size: 28pt;
+$med-home-button-font-size: 16pt;
+$small-home-button-font-size: 10pt;
+
+
+$nav-button-color: #303030;
+$nav-button-highlight-color: #777777;
+$nav-button-text-color: #fff;
+
+
+$nav-border-width: 2px;
+$nav-border-color: #1a1a1a;
+$nav-border-highlight-color: #fff;
+
+
+
+$section-img-width: 500px;
+$section-img-height: 128px;
+$section-img-border-width: 1px;
+$section-img-border-color: #000;
+
+
+$med-section-img-width: 400px;
+$med-section-img-height: 102px;
+
+$small-section-img-width: 300px;
+$small-section-img-height: 77px;
+
+
+$shadow-alpha1: 0.16;
+$shadow-alpha-strong1: 0.4;
+$shadow-h1: 0;
+$shadow-v1: 2px;
+$shadow-blur1: 5px;
+$shadow-spread1: 0;
+
+$shadow-alpha2: 0.12;
+$shadow-alpha-strong2: 0.2;
+$shadow-h2: 0;
+$shadow-v2: 2px;
+$shadow-blur2: 10px;
+$shadow-spread2: 0;
+
+
+
+
+$modal-bg-color: #fff;
+$modal-close-size: 32pt;
+$modal-close-color: #000;
+$modal-close-color-hover: #ccc;
+
+
+
+
+$digit-canvas-border-width: 1px;
+$digit-canvas-border-color: #000;
+$digit-canvas-size: 128px;
+
+
+
+$image-canvas-border-width: 1px;
+$image-canvas-border-color: #000;
+$image-canvas-size: 300px;
+$med-image-canvas-size: 200px;
+$small-image-canvas-size: 128px;

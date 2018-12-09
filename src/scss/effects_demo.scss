@@ -1,0 +1,111 @@
+@import "globals";
+
+
+
+
+.image-canvas {
+  border: $image-canvas-border-width solid $image-canvas-border-color;
+  height: $image-canvas-size;
+  width: $image-canvas-size;
+  min-height: $image-canvas-size;
+  min-width: $image-canvas-size;
+  max-height: $image-canvas-size;
+  max-width: $image-canvas-size;
+}
+
+
+@media screen and (max-width: $med-screen-size) {
+  .image-canvas {
+    height: $med-image-canvas-size;
+    width: $med-image-canvas-size;
+    min-height: $med-image-canvas-size;
+    min-width: $med-image-canvas-size;
+    max-height: $med-image-canvas-size;
+    max-width: $med-image-canvas-size;
+  }
+}
+
+@media screen and (max-width: $small-screen-size) {
+  .image-canvas {
+    height: $small-image-canvas-size;
+    width: $small-image-canvas-size;
+    min-height: $small-image-canvas-size;
+    min-width: $small-image-canvas-size;
+    max-height: $small-image-canvas-size;
+    max-width: $small-image-canvas-size;
+  }
+}
+
+
+.input-file-chooser {
+  width: $image-canvas-size;
+  min-width: $image-canvas-size;
+  max-width: $image-canvas-size;
+}
+
+
+@media screen and (max-width: $med-screen-size) {
+  .input-file-chooser {
+    width: $med-image-canvas-size;
+    min-width: $med-image-canvas-size;
+    max-width: $med-image-canvas-size;
+  }
+}
+
+@media screen and (max-width: $small-screen-size) {
+  .input-file-chooser {
+    width: $small-image-canvas-size;
+    min-width: $small-image-canvas-size;
+    max-height: $small-image-canvas-size;
+  }
+}
+
+
+.effects-slider {
+  width: $image-canvas-size;
+  min-width: $image-canvas-size;
+  max-width: $image-canvas-size;
+  margin: auto;
+}
+
+@media screen and (max-width: $med-screen-size) {
+  .effects-slider {
+    width: $med-image-canvas-size;
+    min-width: $med-image-canvas-size;
+    max-width: $med-image-canvas-size;
+  }
+}
+
+@media screen and (max-width: $small-screen-size) {
+  .effects-slider {
+    width: $small-image-canvas-size;
+    min-width: $small-image-canvas-size;
+    max-height: $small-image-canvas-size;
+  }
+}
+
+
+
+
+.effects-image {
+  margin: 16px;
+  background-image: url("src/img/effects.jpg");
+  height: 360px;
+  width: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+@media screen and (max-width: 960px) {
+  .effects-image {
+    height: 180px;
+    width: 400px;
+  }
+}
+
+
+
+
