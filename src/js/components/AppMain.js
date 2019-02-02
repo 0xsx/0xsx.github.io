@@ -230,13 +230,11 @@ class AppMain extends React.Component {
               and I deliver results through planning and
               research. <a href="javascript:void(0)"
               onClick={()=>{this.props.dispatch(nav.navTo(["contact"]))}}>Contact me</a> to
-              talk about what we can work on together.</p>
+              learn more.</p>
             </div>
           </div>
 
 
-
-          <div className="job-search">I'm looking for a job!</div>
 
 
           </Anchor>
